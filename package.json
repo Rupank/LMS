@@ -1,0 +1,32 @@
+{
+  "name": "lms",
+  "version": "1.0.0",
+  "description": "A Learning Management System",
+  "main": "server.js",
+  "engines": {
+    "node": "6.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rupank/LMS.git"
+  },
+  "author": "Rupank Bansal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rupank/LMS/issues"
+  },
+  "homepage": "https://github.com/Rupank/LMS#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "body-parser": "^1.18.3",
+    "mongoose": "^5.2.6",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.18.3"
+  }
+}
